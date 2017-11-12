@@ -35,3 +35,6 @@ D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucMain.res
 D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPhamOption.resources
 D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucHoaDonOption.resources
 D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmLogin.resources
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
