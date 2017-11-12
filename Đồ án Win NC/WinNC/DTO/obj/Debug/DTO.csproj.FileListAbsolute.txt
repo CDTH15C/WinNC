@@ -1,0 +1,4 @@
+C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
