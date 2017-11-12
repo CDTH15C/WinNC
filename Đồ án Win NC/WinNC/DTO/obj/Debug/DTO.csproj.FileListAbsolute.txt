@@ -1,15 +1,5 @@
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
