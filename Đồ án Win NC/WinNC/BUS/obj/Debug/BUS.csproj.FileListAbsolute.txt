@@ -1,9 +1,18 @@
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.pdb
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.pdb
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.pdb
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.dll
-C:\Users\nguye\OneDrive\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.pdb
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.dll
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.pdb
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.dll
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.dll
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.pdb
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.pdb
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.dll
+C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.pdb
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.dll
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.pdb
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.dll
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.dll
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.pdb
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.pdb
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.dll
+D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.pdb

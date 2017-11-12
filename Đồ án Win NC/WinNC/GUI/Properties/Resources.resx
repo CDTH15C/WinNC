@@ -118,25 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="16731003_263431517411501_1855175360_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\16731003_263431517411501_1855175360_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="19642329_476145289392042_8050189321103825307_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19642329_476145289392042_8050189321103825307_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="megaman_x_fanimation_ost_enwp_by_shanenewville-d5q5na3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\megaman_x_fanimation_ost_enwp_by_shanenewville-d5q5na3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThemXoaSuaHoaDon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\ThemXoaSuaHoaDon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SP20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SP20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X-button_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X-button_.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thongke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thongke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shrink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Shrink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SP08" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SP08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="19642329_476145289392042_8050189321103825307_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\19642329_476145289392042_8050189321103825307_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ThemHoaDon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\ThemHoaDon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nature-wallpaper-full-hd-5wpb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nature-wallpaper-full-hd-5wpb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bill_enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Bill_enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X-button_enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X-button_enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Expand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Expand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="26421" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26421.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Bill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IMG20170218134312" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG20170218134312.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\Data\Anh\Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SP41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SP41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Product" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\Product.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReturnToMainMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\ReturnToMainMenu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="XoaHoaDon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\XoaHoaDon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG\Icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

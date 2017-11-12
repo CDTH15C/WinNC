@@ -28,102 +28,257 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.mnsSanPham = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnsTimKiem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.components = new System.ComponentModel.Container();
+            this.pnlTop = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.picX = new System.Windows.Forms.PictureBox();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mntQLTK = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.label20 = new System.Windows.Forms.Label();
+            this.btnDangXuat = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnHoaDon = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnSanPham = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnMainMenu = new System.Windows.Forms.PictureBox();
+            this.pnlSubMain = new System.Windows.Forms.Panel();
+            this.timerMain = new System.Windows.Forms.Timer(this.components);
+            this.picButtonExpandShrink = new System.Windows.Forms.PictureBox();
+            this.pnlParent = new System.Windows.Forms.Panel();
+            this.pnlTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picX)).BeginInit();
+            this.pnlMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoaDon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSanPham)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMainMenu)).BeginInit();
+            this.pnlSubMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picButtonExpandShrink)).BeginInit();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // pnlTop
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnsSanPham,
-            this.nhânViênToolStripMenuItem,
-            this.adminToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1196, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.pnlTop.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.pnlTop.Controls.Add(this.label1);
+            this.pnlTop.Controls.Add(this.picX);
+            this.pnlTop.Location = new System.Drawing.Point(-2, -2);
+            this.pnlTop.Name = "pnlTop";
+            this.pnlTop.Size = new System.Drawing.Size(1355, 31);
+            this.pnlTop.TabIndex = 1;
             // 
-            // mnsSanPham
+            // label1
             // 
-            this.mnsSanPham.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnsTimKiem});
-            this.mnsSanPham.Name = "mnsSanPham";
-            this.mnsSanPham.Size = new System.Drawing.Size(72, 20);
-            this.mnsSanPham.Text = "Sản phẩm";
-            this.mnsSanPham.Click += new System.EventHandler(this.mnsSanPham_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(3, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(190, 17);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "CỬA HÀNG SUNFLOWER";
             // 
-            // mnsTimKiem
+            // picX
             // 
-            this.mnsTimKiem.Name = "mnsTimKiem";
-            this.mnsTimKiem.Size = new System.Drawing.Size(152, 22);
-            this.mnsTimKiem.Text = "Tìm Kiếm";
-            this.mnsTimKiem.Click += new System.EventHandler(this.mnsTimKiem_Click);
-            // 
-            // nhânViênToolStripMenuItem
-            // 
-            this.nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
-            this.nhânViênToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.nhânViênToolStripMenuItem.Text = "Nhân viên";
+            this.picX.Image = global::GUI.Properties.Resources.X_button_;
+            this.picX.Location = new System.Drawing.Point(1308, 14);
+            this.picX.Name = "picX";
+            this.picX.Size = new System.Drawing.Size(20, 14);
+            this.picX.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picX.TabIndex = 0;
+            this.picX.TabStop = false;
+            this.picX.Click += new System.EventHandler(this.picX_Click);
+            this.picX.MouseEnter += new System.EventHandler(this.picX_MouseEnter);
+            this.picX.MouseLeave += new System.EventHandler(this.picX_MouseLeave);
             // 
             // pnlMain
             // 
-            this.pnlMain.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.Location = new System.Drawing.Point(0, 24);
+            this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.pnlMain.Controls.Add(this.label20);
+            this.pnlMain.Controls.Add(this.btnDangXuat);
+            this.pnlMain.Controls.Add(this.label4);
+            this.pnlMain.Controls.Add(this.btnHoaDon);
+            this.pnlMain.Controls.Add(this.label3);
+            this.pnlMain.Controls.Add(this.btnSanPham);
+            this.pnlMain.Controls.Add(this.label2);
+            this.pnlMain.Controls.Add(this.btnMainMenu);
+            this.pnlMain.Location = new System.Drawing.Point(0, 29);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1196, 492);
-            this.pnlMain.TabIndex = 1;
+            this.pnlMain.Size = new System.Drawing.Size(85, 722);
+            this.pnlMain.TabIndex = 2;
             // 
-            // adminToolStripMenuItem
+            // label20
             // 
-            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mntQLTK});
-            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.adminToolStripMenuItem.Text = "Admin";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(96, 597);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(82, 20);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Đăng xuất";
             // 
-            // mntQLTK
+            // btnDangXuat
             // 
-            this.mntQLTK.Name = "mntQLTK";
-            this.mntQLTK.Size = new System.Drawing.Size(170, 22);
-            this.mntQLTK.Text = "Quản Lí Tài Khoản";
-            this.mntQLTK.Click += new System.EventHandler(this.mntQLTK_Click);
+            this.btnDangXuat.Image = global::GUI.Properties.Resources.Logout;
+            this.btnDangXuat.Location = new System.Drawing.Point(25, 589);
+            this.btnDangXuat.Name = "btnDangXuat";
+            this.btnDangXuat.Size = new System.Drawing.Size(33, 37);
+            this.btnDangXuat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnDangXuat.TabIndex = 7;
+            this.btnDangXuat.TabStop = false;
+            this.btnDangXuat.MouseEnter += new System.EventHandler(this.btnDangXuat_MouseEnter);
+            this.btnDangXuat.MouseLeave += new System.EventHandler(this.btnDangXuat_MouseLeave);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.Location = new System.Drawing.Point(96, 163);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(70, 20);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Hóa đơn";
+            // 
+            // btnHoaDon
+            // 
+            this.btnHoaDon.Image = global::GUI.Properties.Resources.Bill;
+            this.btnHoaDon.Location = new System.Drawing.Point(26, 156);
+            this.btnHoaDon.Name = "btnHoaDon";
+            this.btnHoaDon.Size = new System.Drawing.Size(33, 37);
+            this.btnHoaDon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnHoaDon.TabIndex = 5;
+            this.btnHoaDon.TabStop = false;
+            this.btnHoaDon.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnHoaDon_MouseClick);
+            this.btnHoaDon.MouseEnter += new System.EventHandler(this.btnHoaDon_MouseEnter);
+            this.btnHoaDon.MouseLeave += new System.EventHandler(this.btnHoaDon_MouseLeave);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(96, 104);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(82, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Sản phẩm";
+            // 
+            // btnSanPham
+            // 
+            this.btnSanPham.Image = global::GUI.Properties.Resources.Product;
+            this.btnSanPham.Location = new System.Drawing.Point(22, 86);
+            this.btnSanPham.Name = "btnSanPham";
+            this.btnSanPham.Size = new System.Drawing.Size(41, 54);
+            this.btnSanPham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnSanPham.TabIndex = 3;
+            this.btnSanPham.TabStop = false;
+            this.btnSanPham.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnSanPham_MouseClick);
+            this.btnSanPham.MouseEnter += new System.EventHandler(this.btnSanPham_MouseEnter);
+            this.btnSanPham.MouseLeave += new System.EventHandler(this.btnSanPham_MouseLeave);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(96, 46);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(140, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Về màn hình chính";
+            // 
+            // btnMainMenu
+            // 
+            this.btnMainMenu.Image = global::GUI.Properties.Resources.ReturnToMainMenu;
+            this.btnMainMenu.Location = new System.Drawing.Point(25, 38);
+            this.btnMainMenu.Name = "btnMainMenu";
+            this.btnMainMenu.Size = new System.Drawing.Size(33, 35);
+            this.btnMainMenu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMainMenu.TabIndex = 0;
+            this.btnMainMenu.TabStop = false;
+            this.btnMainMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnMainMenu_MouseClick);
+            // 
+            // pnlSubMain
+            // 
+            this.pnlSubMain.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.pnlSubMain.Controls.Add(this.picButtonExpandShrink);
+            this.pnlSubMain.Location = new System.Drawing.Point(85, 29);
+            this.pnlSubMain.Name = "pnlSubMain";
+            this.pnlSubMain.Size = new System.Drawing.Size(11, 731);
+            this.pnlSubMain.TabIndex = 3;
+            // 
+            // timerMain
+            // 
+            this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
+            // 
+            // picButtonExpandShrink
+            // 
+            this.picButtonExpandShrink.Image = global::GUI.Properties.Resources.Expand;
+            this.picButtonExpandShrink.Location = new System.Drawing.Point(1, 5);
+            this.picButtonExpandShrink.Name = "picButtonExpandShrink";
+            this.picButtonExpandShrink.Size = new System.Drawing.Size(10, 662);
+            this.picButtonExpandShrink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picButtonExpandShrink.TabIndex = 4;
+            this.picButtonExpandShrink.TabStop = false;
+            this.picButtonExpandShrink.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picButtonExpandShrink_MouseClick);
+            // 
+            // pnlParent
+            // 
+            this.pnlParent.Location = new System.Drawing.Point(91, 29);
+            this.pnlParent.Name = "pnlParent";
+            this.pnlParent.Size = new System.Drawing.Size(1258, 684);
+            this.pnlParent.TabIndex = 6;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1196, 516);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(1353, 711);
             this.Controls.Add(this.pnlMain);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.Controls.Add(this.pnlTop);
+            this.Controls.Add(this.pnlSubMain);
+            this.Controls.Add(this.pnlParent);
+            this.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMain";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmMain_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
+            this.Load += new System.EventHandler(this.pnlTop_Load);
+            this.pnlTop.ResumeLayout(false);
+            this.pnlTop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picX)).EndInit();
+            this.pnlMain.ResumeLayout(false);
+            this.pnlMain.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHoaDon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnSanPham)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMainMenu)).EndInit();
+            this.pnlSubMain.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.picButtonExpandShrink)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem mnsSanPham;
+        private System.Windows.Forms.PictureBox picX;
+        private System.Windows.Forms.Panel pnlTop;
         private System.Windows.Forms.Panel pnlMain;
-        private System.Windows.Forms.ToolStripMenuItem nhânViênToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mnsTimKiem;
-        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem mntQLTK;
+        private System.Windows.Forms.Panel pnlSubMain;
+        private System.Windows.Forms.Timer timerMain;
+        private System.Windows.Forms.PictureBox picButtonExpandShrink;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox btnMainMenu;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox btnSanPham;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox btnHoaDon;
+        private System.Windows.Forms.PictureBox btnDangXuat;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Panel pnlParent;
     }
 }

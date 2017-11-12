@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class TaiKhoan_DTO : LoaiTaiKhoan_DTO
+    public class TaiKhoan_DTO
     {
         string _maTaiKhoan;
         string _tenTaiKhoan;
         string _matKhau;
         DateTime _ngayTao;
-        string _maLoaiTK_TK;
-        bool _trangThai_TK;
+        string _maLoaiTK;
+        bool _trangThai;
 
         public string MaTaiKhoan
         {
@@ -67,45 +67,30 @@ namespace DTO
             }
         }
 
-        public bool TrangThai_TK
+        public string MaLoaiTK
         {
             get
             {
-                return _trangThai_TK;
+                return _maLoaiTK;
             }
 
             set
             {
-                _trangThai_TK = value;
+                _maLoaiTK = value;
             }
         }
 
-        public string MaLoaiTK_TK
+        public bool TrangThai
         {
             get
             {
-                return _maLoaiTK_TK;
+                return _trangThai;
             }
 
             set
             {
-                _maLoaiTK_TK = value;
+                _trangThai = value;
             }
         }
-
-        /* public string MaLoaiTK
-         {
-             get
-             {
-                 return _maLoaiTK;
-             }
-
-             set
-             {
-                 _maLoaiTK = value;
-             }
-         }
-         */
-
     }
 }

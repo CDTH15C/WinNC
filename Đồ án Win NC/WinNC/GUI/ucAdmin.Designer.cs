@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvListNV = new System.Windows.Forms.DataGridView();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -41,7 +41,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.dgvDSNV = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label7 = new System.Windows.Forms.Label();
@@ -73,9 +73,7 @@
             this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListNV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -86,22 +84,18 @@
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dgvListNV
+            // dataGridView1
             // 
-            this.dgvListNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListNV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2});
-            this.dgvListNV.Location = new System.Drawing.Point(14, 345);
-            this.dgvListNV.Name = "dgvListNV";
-            this.dgvListNV.Size = new System.Drawing.Size(1241, 227);
-            this.dgvListNV.TabIndex = 0;
-            this.dgvListNV.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvListNV_CellFormatting);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(14, 345);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(982, 227);
+            this.dataGridView1.TabIndex = 0;
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(692, 3);
+            this.button2.Location = new System.Drawing.Point(642, 22);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(103, 39);
             this.button2.TabIndex = 2;
@@ -131,7 +125,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(799, 80);
+            this.checkBox1.Location = new System.Drawing.Point(396, 167);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(118, 24);
             this.checkBox1.TabIndex = 10;
@@ -152,7 +146,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(580, 80);
+            this.label3.Location = new System.Drawing.Point(97, 166);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(39, 20);
             this.label3.TabIndex = 13;
@@ -172,7 +166,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(549, 38);
+            this.label5.Location = new System.Drawing.Point(66, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 20);
             this.label5.TabIndex = 14;
@@ -183,7 +177,7 @@
             this.comboBox1.Enabled = false;
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(640, 77);
+            this.comboBox1.Location = new System.Drawing.Point(157, 163);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(140, 28);
             this.comboBox1.TabIndex = 15;
@@ -200,7 +194,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(843, 8);
+            this.button1.Location = new System.Drawing.Point(642, 79);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 39);
             this.button1.TabIndex = 17;
@@ -210,22 +204,22 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(692, 57);
+            this.button3.Location = new System.Drawing.Point(642, 135);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(103, 39);
             this.button3.TabIndex = 18;
             this.button3.Text = "Sửa";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // dgvDSNV
+            // button4
             // 
-            this.dgvDSNV.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dgvDSNV.Location = new System.Drawing.Point(843, 54);
-            this.dgvDSNV.Name = "dgvDSNV";
-            this.dgvDSNV.Size = new System.Drawing.Size(103, 39);
-            this.dgvDSNV.TabIndex = 19;
-            this.dgvDSNV.Text = "Hủy";
-            this.dgvDSNV.UseVisualStyleBackColor = true;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(642, 187);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(103, 39);
+            this.button4.TabIndex = 19;
+            this.button4.Text = "Hủy";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // tabControl1
             // 
@@ -235,7 +229,7 @@
             this.tabControl1.Location = new System.Drawing.Point(221, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1034, 336);
+            this.tabControl1.Size = new System.Drawing.Size(775, 336);
             this.tabControl1.TabIndex = 20;
             // 
             // tabPage1
@@ -245,14 +239,14 @@
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.comboBox2);
             this.tabPage1.Controls.Add(this.groupBox2);
-            this.tabPage1.Controls.Add(this.dgvDSNV);
+            this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1026, 310);
+            this.tabPage1.Size = new System.Drawing.Size(767, 310);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Quản lý tài khoản";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -307,20 +301,19 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.comboBox1);
             this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Location = new System.Drawing.Point(22, 111);
+            this.groupBox2.Location = new System.Drawing.Point(6, 92);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(977, 193);
+            this.groupBox2.Size = new System.Drawing.Size(586, 203);
             this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin tài khoản";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Enabled = false;
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(640, 37);
+            this.dateTimePicker1.Location = new System.Drawing.Point(157, 123);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 26);
             this.dateTimePicker1.TabIndex = 16;
@@ -335,7 +328,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1026, 310);
+            this.tabPage2.Size = new System.Drawing.Size(767, 310);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Cấp quyền";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -445,7 +438,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1026, 310);
+            this.tabPage3.Size = new System.Drawing.Size(767, 310);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Tìm kiếm tài khoản";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -584,17 +577,6 @@
             this.button8.Text = "HỦY";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "TenMau";
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            // 
             // ucAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -603,11 +585,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.dgvListNV);
+            this.Controls.Add(this.dataGridView1);
             this.Name = "ucAdmin";
-            this.Size = new System.Drawing.Size(1364, 583);
-            this.Load += new System.EventHandler(this.ucAdmin_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListNV)).EndInit();
+            this.Size = new System.Drawing.Size(1014, 583);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -627,7 +608,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvListNV;
+        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -640,7 +621,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button dgvDSNV;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
@@ -672,7 +653,5 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.ComboBox comboBox7;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
     }
 }

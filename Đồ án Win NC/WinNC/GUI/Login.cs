@@ -18,23 +18,8 @@ namespace GUI
 
         private void Login_Load(object sender, EventArgs e)
         {
-            
-        }
-
-        // BtnDangNhap
-        private void button2_Click(object sender, EventArgs e)
-        {
-            NhanVien_BUS obj = new NhanVien_BUS();
-            string TenTaiKhoan = txtTenTaiKhoan.Text;
-            string MatKhau = txtMatKhau.Text;
-          if(obj.KtraDangNhap(TenTaiKhoan,MatKhau))
-            {
-                MessageBox.Show("Dang Nhap Thanh Cong...!");
-            }
-          else
-            {
-                MessageBox.Show("Dang Nhap That Bai...!");
-            }
+            NhanVien_BUS bus = new NhanVien_BUS();
+            bus.ta();
         }
     }
 }

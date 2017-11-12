@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtTenTaiKhoan = new System.Windows.Forms.TextBox();
-            this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,22 +42,22 @@
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // txtTenTaiKhoan
+            // textBox1
             // 
-            this.txtTenTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTenTaiKhoan.Location = new System.Drawing.Point(163, 148);
-            this.txtTenTaiKhoan.Name = "txtTenTaiKhoan";
-            this.txtTenTaiKhoan.Size = new System.Drawing.Size(325, 32);
-            this.txtTenTaiKhoan.TabIndex = 0;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(163, 148);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(325, 32);
+            this.textBox1.TabIndex = 0;
             // 
-            // txtMatKhau
+            // textBox2
             // 
-            this.txtMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatKhau.Location = new System.Drawing.Point(163, 198);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(325, 32);
-            this.txtMatKhau.TabIndex = 1;
-            this.txtMatKhau.UseSystemPasswordChar = true;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(163, 198);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(325, 32);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.UseSystemPasswordChar = true;
             // 
             // label1
             // 
@@ -107,7 +107,6 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Đăng nhập";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -142,15 +141,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtTenTaiKhoan);
-            this.Controls.Add(this.txtMatKhau);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.textBox2);
             this.Name = "Login";
             this.Size = new System.Drawing.Size(545, 331);
             this.Load += new System.EventHandler(this.Login_Load);
@@ -163,8 +162,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtTenTaiKhoan;
-        private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

@@ -50,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,23 +70,22 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ucAdmin.cs">
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucHoaDonOption.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucAdmin.Designer.cs">
-      <DependentUpon>ucAdmin.cs</DependentUpon>
+    <Compile Include="ucHoaDonOption.Designer.cs">
+      <DependentUpon>ucHoaDonOption.cs</DependentUpon>
     </Compile>
-    <Compile Include="UcLogin.cs">
+    <Compile Include="ucMain.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UcLogin.Designer.cs">
-      <DependentUpon>UcLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ucNhanVien.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="ucNhanVien.Designer.cs">
-      <DependentUpon>ucNhanVien.cs</DependentUpon>
+    <Compile Include="ucMain.Designer.cs">
+      <DependentUpon>ucMain.cs</DependentUpon>
     </Compile>
     <Compile Include="ucSanPham.cs">
       <SubType>UserControl</SubType>
@@ -88,6 +93,21 @@
     <Compile Include="ucSanPham.Designer.cs">
       <DependentUpon>ucSanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucSanPhamOption.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucSanPhamOption.Designer.cs">
+      <DependentUpon>ucSanPhamOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucThemXoaSuaSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucThemXoaSuaSanPham.Designer.cs">
+      <DependentUpon>ucThemXoaSuaSanPham.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,25 +116,23 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <EmbeddedResource Include="ucAdmin.resx">
-      <DependentUpon>ucAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="ucHoaDonOption.resx">
+      <DependentUpon>ucHoaDonOption.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UcLogin.resx">
-      <DependentUpon>UcLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ucNhanVien.resx">
-      <DependentUpon>ucNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="ucMain.resx">
+      <DependentUpon>ucMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ucSanPham.resx">
       <DependentUpon>ucSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucSanPhamOption.resx">
+      <DependentUpon>ucSanPhamOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucThemXoaSuaSanPham.resx">
+      <DependentUpon>ucThemXoaSuaSanPham.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
@@ -156,7 +174,36 @@
     <None Include="Resources\SP08.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\Data\Anh\Background.jpg" />
+    <None Include="Resources\IMG\Icon\X-button_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Icon\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG\Icon\XoaHoaDon.png" />
+    <None Include="Resources\Thongke.png" />
+    <None Include="Resources\X-button_.png" />
+    <None Include="Resources\X-button_enter.png" />
+    <None Include="Resources\IMG\Icon\Logout.png" />
+    <None Include="Resources\IMG\Icon\line.png" />
+    <None Include="Resources\IMG\Icon\Button.png" />
+    <None Include="Resources\IMG\Icon\Search-icon.png" />
+    <None Include="Resources\SP41.png" />
+    <None Include="Resources\SP20.png" />
+    <None Include="Resources\IMG\Icon\Bill.png" />
+    <None Include="Resources\IMG\Icon\Bill_enter.png" />
+    <None Include="Resources\IMG\Icon\Product.png" />
+    <None Include="Resources\IMG\Icon\ReturnToMainMenu.png" />
+    <None Include="Resources\IMG\Icon\Expand.png" />
+    <None Include="Resources\IMG\Icon\Shrink.png" />
+    <None Include="Resources\IMG\Icon\Search.png" />
+    <None Include="Resources\IMG\Icon\26421.png" />
+    <None Include="Resources\26421.png" />
+    <None Include="Resources\IMG\Icon\ThemXoaSuaHoaDon.png" />
+    <None Include="Resources\IMG\Icon\ThemHoaDon.png" />
+    <None Include="Resources\IMG\Icon\bow.png" />
+    <None Include="Resources\IMG\Icon\user.png" />
+    <Content Include="Resources\IMG\Icon\X-button_enter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
