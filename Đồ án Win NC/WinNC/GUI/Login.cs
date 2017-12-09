@@ -18,8 +18,8 @@ namespace GUI
 
         private void Login_Load(object sender, EventArgs e)
         {
-            NhanVien_BUS bus = new NhanVien_BUS();
-            bus.ta();
+           /* NhanVien_BUS bus = new NhanVien_BUS();
+            bus.ta();*/
         }
     }
 }

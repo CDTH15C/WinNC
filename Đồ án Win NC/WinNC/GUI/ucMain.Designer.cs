@@ -28,14 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lvwSPBanCham = new System.Windows.Forms.ListView();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.lvwSPBanChay = new System.Windows.Forms.ListView();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.lblTenNV = new System.Windows.Forms.Label();
             this.lblChucVu = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pctAvatar = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblLapNhanhHD = new System.Windows.Forms.Label();
             this.lblThemNhanhSP = new System.Windows.Forms.Label();
@@ -52,7 +57,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctAvatar)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -60,12 +65,50 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.lvwSPBanCham);
+            this.panel1.Controls.Add(this.lvwSPBanChay);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(459, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(796, 689);
             this.panel1.TabIndex = 62;
+            // 
+            // lvwSPBanCham
+            // 
+            this.lvwSPBanCham.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvwSPBanCham.ForeColor = System.Drawing.Color.Blue;
+            this.lvwSPBanCham.LargeImageList = this.imageList2;
+            this.lvwSPBanCham.Location = new System.Drawing.Point(25, 395);
+            this.lvwSPBanCham.Name = "lvwSPBanCham";
+            this.lvwSPBanCham.Size = new System.Drawing.Size(753, 264);
+            this.lvwSPBanCham.TabIndex = 66;
+            this.lvwSPBanCham.UseCompatibleStateImageBehavior = false;
+            this.lvwSPBanCham.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanCham_SelectedIndexChanged);
+            // 
+            // imageList2
+            // 
+            this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.imageList2.ImageSize = new System.Drawing.Size(73, 73);
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // lvwSPBanChay
+            // 
+            this.lvwSPBanChay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvwSPBanChay.ForeColor = System.Drawing.Color.Blue;
+            this.lvwSPBanChay.LargeImageList = this.imageList1;
+            this.lvwSPBanChay.Location = new System.Drawing.Point(25, 69);
+            this.lvwSPBanChay.Name = "lvwSPBanChay";
+            this.lvwSPBanChay.Size = new System.Drawing.Size(753, 264);
+            this.lvwSPBanChay.TabIndex = 65;
+            this.lvwSPBanChay.UseCompatibleStateImageBehavior = false;
+            this.lvwSPBanChay.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanChay_SelectedIndexChanged);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(73, 73);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // label7
             // 
@@ -125,22 +168,22 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Controls.Add(this.lblTenNV);
-            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Controls.Add(this.pctAvatar);
             this.panel2.Controls.Add(this.lblChucVu);
             this.panel2.Location = new System.Drawing.Point(20, 21);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(424, 162);
+            this.panel2.Size = new System.Drawing.Size(421, 162);
             this.panel2.TabIndex = 63;
             // 
-            // pictureBox5
+            // pctAvatar
             // 
-            this.pictureBox5.Image = global::GUI.Properties.Resources._19642329_476145289392042_8050189321103825307_n;
-            this.pictureBox5.Location = new System.Drawing.Point(280, 16);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(123, 132);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 54;
-            this.pictureBox5.TabStop = false;
+            this.pctAvatar.Image = global::GUI.Properties.Resources._19642329_476145289392042_8050189321103825307_n;
+            this.pctAvatar.Location = new System.Drawing.Point(280, 16);
+            this.pctAvatar.Name = "pctAvatar";
+            this.pctAvatar.Size = new System.Drawing.Size(123, 132);
+            this.pctAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctAvatar.TabIndex = 54;
+            this.pctAvatar.TabStop = false;
             // 
             // panel3
             // 
@@ -327,7 +370,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -340,7 +383,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pctAvatar;
         private System.Windows.Forms.Label lblTenNV;
         private System.Windows.Forms.Label lblChucVu;
         private System.Windows.Forms.Label label11;
@@ -359,5 +402,9 @@
         private System.Windows.Forms.Label lblHDTrongNgay;
         private System.Windows.Forms.Label lblSPConKinhDoanh;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.ListView lvwSPBanChay;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ListView lvwSPBanCham;
+        private System.Windows.Forms.ImageList imageList2;
     }
 }

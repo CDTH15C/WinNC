@@ -1,11 +1,12 @@
-<<<<<<< HEAD
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.pdb
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.dll
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.dll
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DAO.dll
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.pdb
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.pdb
+C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DAO.pdb
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmLogin.resources
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmMain.resources
@@ -19,45 +20,3 @@ C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x8
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
-=======
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmMain.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.Login.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucAdmin.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucNhanVien.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPham.resources
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.dll
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.dll
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.pdb
-C:\Users\The Dark\Documents\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.dll
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.dll
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.pdb
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmMain.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.Login.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPham.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucThemXoaSuaSanPham.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucMain.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPhamOption.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucHoaDonOption.resources
-D:\GitHub\Project-Win-NC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmLogin.resources
-D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
-D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
-D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
->>>>>>> 708bc5a49e2b68ded538b71b8c4a2c450a503de1

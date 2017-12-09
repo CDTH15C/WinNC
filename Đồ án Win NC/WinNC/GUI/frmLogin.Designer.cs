@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsername = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnThoat = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -37,9 +37,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lblHienThiMatKhau = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThoat)).BeginInit();
@@ -60,17 +60,17 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Tên đăng nhập";
             // 
-            // textBox1
+            // txtUsername
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox1.Location = new System.Drawing.Point(17, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 19);
-            this.textBox1.TabIndex = 3;
+            this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtUsername.Location = new System.Drawing.Point(17, 12);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(241, 19);
+            this.txtUsername.TabIndex = 3;
             // 
             // pictureBox1
             // 
@@ -114,7 +114,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
-            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.txtUsername);
             this.panel3.Location = new System.Drawing.Point(73, 245);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(275, 42);
@@ -135,24 +135,24 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
-            this.panel5.Controls.Add(this.textBox3);
+            this.panel5.Controls.Add(this.txtPassword);
             this.panel5.Location = new System.Drawing.Point(73, 340);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(275, 42);
             this.panel5.TabIndex = 11;
             // 
-            // textBox3
+            // txtPassword
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox3.Location = new System.Drawing.Point(17, 12);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(241, 19);
-            this.textBox3.TabIndex = 3;
-            this.textBox3.UseSystemPasswordChar = true;
+            this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(97)))), ((int)(((byte)(198)))));
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtPassword.Location = new System.Drawing.Point(17, 12);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(241, 19);
+            this.txtPassword.TabIndex = 3;
+            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnDangNhap
             // 
@@ -169,16 +169,17 @@
             this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
-            // label3
+            // lblHienThiMatKhau
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(262, 388);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 13);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Quên mật khẩu?";
-            this.label3.MouseEnter += new System.EventHandler(this.forgetPassword_Enter);
-            this.label3.MouseLeave += new System.EventHandler(this.forgetPassword_Leave);
+            this.lblHienThiMatKhau.AutoSize = true;
+            this.lblHienThiMatKhau.Location = new System.Drawing.Point(252, 385);
+            this.lblHienThiMatKhau.Name = "lblHienThiMatKhau";
+            this.lblHienThiMatKhau.Size = new System.Drawing.Size(96, 13);
+            this.lblHienThiMatKhau.TabIndex = 13;
+            this.lblHienThiMatKhau.Text = "Hiển Thị Mật Khẩu";
+            this.lblHienThiMatKhau.Click += new System.EventHandler(this.lblHienThiMatKhau_Click);
+            this.lblHienThiMatKhau.MouseEnter += new System.EventHandler(this.forgetPassword_Enter);
+            this.lblHienThiMatKhau.MouseLeave += new System.EventHandler(this.forgetPassword_Leave);
             // 
             // panel4
             // 
@@ -195,7 +196,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(418, 572);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblHienThiMatKhau);
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.label2);
@@ -205,10 +206,13 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.KeyPreview = true;
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmLogin";
             this.Load += new System.EventHandler(this.frmLogin_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmLogin_KeyDown);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmLogin_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnThoat)).EndInit();
             this.panel1.ResumeLayout(false);
@@ -225,16 +229,16 @@
 
         private System.Windows.Forms.PictureBox btnThoat;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnDangNhap;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblHienThiMatKhau;
         private System.Windows.Forms.Panel panel4;
     }
 }

@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class SanPham_DTO
+    public class SanPham_DTO : ChiTietSanPham_DTO
     {
         #region Property
         string _maSP;
         string _tenSP;
-        string _maChiTietSanPham;
+        string _maChiTietSanPham_SP;
         string _maLoaiSP;
         DateTime _ngayNhapKho;
-        float _giaNhapKho;
-        float _giaBan;
+        decimal _giaNhapKho;
+        decimal _giaBan;
         string _gioiTinh;
-        bool _trangThai;
+        bool _trangThai_SP;
+
 
         public string MaSP
         {
@@ -42,19 +43,6 @@ namespace DTO
             set
             {
                 _tenSP = value;
-            }
-        }
-
-        public string MaChiTietSanPham
-        {
-            get
-            {
-                return _maChiTietSanPham;
-            }
-
-            set
-            {
-                _maChiTietSanPham = value;
             }
         }
 
@@ -84,7 +72,7 @@ namespace DTO
             }
         }
 
-        public float GiaNhapKho
+        public decimal GiaNhapKho
         {
             get
             {
@@ -97,7 +85,7 @@ namespace DTO
             }
         }
 
-        public float GiaBan
+        public decimal GiaBan
         {
             get
             {
@@ -123,18 +111,32 @@ namespace DTO
             }
         }
 
-        public bool TrangThai
+        public string MaChiTietSanPham_SP
         {
             get
             {
-                return _trangThai;
+                return _maChiTietSanPham_SP;
             }
 
             set
             {
-                _trangThai = value;
+                _maChiTietSanPham_SP = value;
             }
         }
+
+        public bool TrangThai_SP
+        {
+            get
+            {
+                return _trangThai_SP;
+            }
+
+            set
+            {
+                _trangThai_SP = value;
+            }
+        }
+
         #endregion
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class NhanVien_DTO
+    public class NhanVien_DTO : TaiKhoan_DTO
     {
         string _maNV;
         string _hoTen;
@@ -14,11 +14,11 @@ namespace DTO
         DateTime _ngaySinh;
         string _sDT;
         string _email;
-        float _luong;
+        decimal _luong;
         string _cMND;
         string _anhDaiDien;
-        string _maTaiKhoan;
-        int _trangThai;
+        string _maTaiKhoan_NV;
+        int _trangThai_NV;
 
         public string MaNV
         {
@@ -98,7 +98,7 @@ namespace DTO
             }
         }
 
-        public float Luong
+        public decimal Luong
         {
             get
             {
@@ -137,30 +137,45 @@ namespace DTO
             }
         }
 
-        public string MaTaiKhoan
+        public string MaTaiKhoan_NV
         {
             get
             {
-                return _maTaiKhoan;
+                return _maTaiKhoan_NV;
             }
 
             set
             {
-                _maTaiKhoan = value;
+                _maTaiKhoan_NV = value;
             }
         }
 
-        public int TrangThai
+        public int TrangThai_NV
         {
             get
             {
-                return _trangThai;
+                return _trangThai_NV;
             }
 
             set
             {
-                _trangThai = value;
+                _trangThai_NV = value;
             }
         }
+
+        /* public string MaTaiKhoan
+         {
+             get
+             {
+                 return _maTaiKhoan;
+             }
+
+             set
+             {
+                 _maTaiKhoan = value;
+             }
+         }*/
+
+
     }
 }

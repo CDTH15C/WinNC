@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-
+using DTO;
 namespace GUI
 {
     static class Program
@@ -10,6 +10,8 @@ namespace GUI
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+       public static NhanVien_DTO NV_Login;
         [STAThread]
         static void Main()
         {
