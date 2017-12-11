@@ -124,5 +124,21 @@ namespace GUI
         {
 
         }
+
+        private void lblThemNhanhSP_Click(object sender, EventArgs e)
+        {
+            frmThemNhanhSP frm = new frmThemNhanhSP();
+            frm.ShowDialog();
+        }
+        
+        private void lblLapNhanhHD_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSPConKinhDoanh_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

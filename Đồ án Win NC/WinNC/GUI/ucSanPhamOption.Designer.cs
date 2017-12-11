@@ -61,7 +61,7 @@
             this.btnXoaHD.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnXoaHD.Controls.Add(this.pictureBox5);
             this.btnXoaHD.Controls.Add(this.label7);
-            this.btnXoaHD.Location = new System.Drawing.Point(392, 87);
+            this.btnXoaHD.Location = new System.Drawing.Point(762, 87);
             this.btnXoaHD.Name = "btnXoaHD";
             this.btnXoaHD.Size = new System.Drawing.Size(170, 181);
             this.btnXoaHD.TabIndex = 22;
@@ -99,10 +99,11 @@
             this.btnThemHD.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnThemHD.Controls.Add(this.pictureBox4);
             this.btnThemHD.Controls.Add(this.label5);
-            this.btnThemHD.Location = new System.Drawing.Point(40, 87);
+            this.btnThemHD.Location = new System.Drawing.Point(410, 87);
             this.btnThemHD.Name = "btnThemHD";
             this.btnThemHD.Size = new System.Drawing.Size(170, 181);
             this.btnThemHD.TabIndex = 23;
+            this.btnThemHD.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnThemHD_MouseClick);
             this.btnThemHD.MouseEnter += new System.EventHandler(this.btnThemHD_MouseEnter);
             this.btnThemHD.MouseLeave += new System.EventHandler(this.btnThemHD_MouseLeave);
             // 
@@ -137,7 +138,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(37, 45);
+            this.label4.Location = new System.Drawing.Point(407, 45);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 18);
             this.label4.TabIndex = 21;
@@ -148,7 +149,7 @@
             this.btnThongKeHD.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnThongKeHD.Controls.Add(this.label8);
             this.btnThongKeHD.Controls.Add(this.pictureBox6);
-            this.btnThongKeHD.Location = new System.Drawing.Point(392, 274);
+            this.btnThongKeHD.Location = new System.Drawing.Point(762, 274);
             this.btnThongKeHD.Name = "btnThongKeHD";
             this.btnThongKeHD.Size = new System.Drawing.Size(170, 181);
             this.btnThongKeHD.TabIndex = 20;
@@ -185,7 +186,7 @@
             this.btnSuaHD.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnSuaHD.Controls.Add(this.pictureBox7);
             this.btnSuaHD.Controls.Add(this.label9);
-            this.btnSuaHD.Location = new System.Drawing.Point(216, 87);
+            this.btnSuaHD.Location = new System.Drawing.Point(586, 87);
             this.btnSuaHD.Name = "btnSuaHD";
             this.btnSuaHD.Size = new System.Drawing.Size(170, 181);
             this.btnSuaHD.TabIndex = 19;
@@ -223,7 +224,7 @@
             this.btnTimKiemHD.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnTimKiemHD.Controls.Add(this.label10);
             this.btnTimKiemHD.Controls.Add(this.pictureBox8);
-            this.btnTimKiemHD.Location = new System.Drawing.Point(40, 274);
+            this.btnTimKiemHD.Location = new System.Drawing.Point(410, 274);
             this.btnTimKiemHD.Name = "btnTimKiemHD";
             this.btnTimKiemHD.Size = new System.Drawing.Size(346, 181);
             this.btnTimKiemHD.TabIndex = 18;

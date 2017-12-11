@@ -54,12 +54,10 @@
             this.label19 = new System.Windows.Forms.Label();
             this.lblHDTrongNgay = new System.Windows.Forms.Label();
             this.lblSPConKinhDoanh = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pctAvatar)).BeginInit();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,7 +69,7 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(459, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(796, 689);
+            this.panel1.Size = new System.Drawing.Size(796, 974);
             this.panel1.TabIndex = 62;
             // 
             // lvwSPBanCham
@@ -79,9 +77,9 @@
             this.lvwSPBanCham.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvwSPBanCham.ForeColor = System.Drawing.Color.Blue;
             this.lvwSPBanCham.LargeImageList = this.imageList2;
-            this.lvwSPBanCham.Location = new System.Drawing.Point(25, 395);
+            this.lvwSPBanCham.Location = new System.Drawing.Point(25, 432);
             this.lvwSPBanCham.Name = "lvwSPBanCham";
-            this.lvwSPBanCham.Size = new System.Drawing.Size(753, 264);
+            this.lvwSPBanCham.Size = new System.Drawing.Size(753, 274);
             this.lvwSPBanCham.TabIndex = 66;
             this.lvwSPBanCham.UseCompatibleStateImageBehavior = false;
             this.lvwSPBanCham.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanCham_SelectedIndexChanged);
@@ -99,7 +97,7 @@
             this.lvwSPBanChay.LargeImageList = this.imageList1;
             this.lvwSPBanChay.Location = new System.Drawing.Point(25, 69);
             this.lvwSPBanChay.Name = "lvwSPBanChay";
-            this.lvwSPBanChay.Size = new System.Drawing.Size(753, 264);
+            this.lvwSPBanChay.Size = new System.Drawing.Size(753, 274);
             this.lvwSPBanChay.TabIndex = 65;
             this.lvwSPBanChay.UseCompatibleStateImageBehavior = false;
             this.lvwSPBanChay.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanChay_SelectedIndexChanged);
@@ -115,7 +113,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label7.Location = new System.Drawing.Point(22, 351);
+            this.label7.Location = new System.Drawing.Point(22, 393);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(144, 18);
             this.label7.TabIndex = 64;
@@ -146,14 +144,14 @@
             // 
             // lblChucVu
             // 
-            this.lblChucVu.AutoSize = true;
+            this.lblChucVu.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblChucVu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChucVu.ForeColor = System.Drawing.Color.White;
-            this.lblChucVu.Location = new System.Drawing.Point(121, 92);
+            this.lblChucVu.Location = new System.Drawing.Point(3, 91);
             this.lblChucVu.Name = "lblChucVu";
-            this.lblChucVu.Size = new System.Drawing.Size(136, 17);
+            this.lblChucVu.Size = new System.Drawing.Size(260, 43);
             this.lblChucVu.TabIndex = 56;
-            this.lblChucVu.Text = "Nhân viên bán hàng";
+            this.lblChucVu.Text = "admin";
             this.lblChucVu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label11
@@ -168,8 +166,8 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DeepSkyBlue;
             this.panel2.Controls.Add(this.lblTenNV);
-            this.panel2.Controls.Add(this.pctAvatar);
             this.panel2.Controls.Add(this.lblChucVu);
+            this.panel2.Controls.Add(this.pctAvatar);
             this.panel2.Location = new System.Drawing.Point(20, 21);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(421, 162);
@@ -202,19 +200,20 @@
             this.panel3.Controls.Add(this.lblSPConKinhDoanh);
             this.panel3.Location = new System.Drawing.Point(23, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(418, 684);
+            this.panel3.Size = new System.Drawing.Size(415, 894);
             this.panel3.TabIndex = 64;
             // 
             // lblLapNhanhHD
             // 
             this.lblLapNhanhHD.AutoSize = true;
             this.lblLapNhanhHD.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLapNhanhHD.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblLapNhanhHD.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.lblLapNhanhHD.Location = new System.Drawing.Point(71, 297);
             this.lblLapNhanhHD.Name = "lblLapNhanhHD";
             this.lblLapNhanhHD.Size = new System.Drawing.Size(134, 18);
             this.lblLapNhanhHD.TabIndex = 63;
             this.lblLapNhanhHD.Text = "Lập nhanh hóa đơn";
+            this.lblLapNhanhHD.Click += new System.EventHandler(this.lblLapNhanhHD_Click);
             this.lblLapNhanhHD.MouseEnter += new System.EventHandler(this.lblThemNhanhSP_MouseEnter);
             this.lblLapNhanhHD.MouseLeave += new System.EventHandler(this.lblThemNhanhSP_MouseLeave);
             // 
@@ -222,12 +221,13 @@
             // 
             this.lblThemNhanhSP.AutoSize = true;
             this.lblThemNhanhSP.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblThemNhanhSP.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblThemNhanhSP.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.lblThemNhanhSP.Location = new System.Drawing.Point(70, 266);
             this.lblThemNhanhSP.Name = "lblThemNhanhSP";
             this.lblThemNhanhSP.Size = new System.Drawing.Size(159, 18);
             this.lblThemNhanhSP.TabIndex = 62;
             this.lblThemNhanhSP.Text = "Thêm nhanh sản phẩm";
+            this.lblThemNhanhSP.Click += new System.EventHandler(this.lblThemNhanhSP_Click);
             this.lblThemNhanhSP.MouseEnter += new System.EventHandler(this.lblThemNhanhSP_MouseEnter);
             this.lblThemNhanhSP.MouseLeave += new System.EventHandler(this.lblThemNhanhSP_MouseLeave);
             // 
@@ -268,7 +268,7 @@
             this.lblSoLuongBanTrongNgay.AutoSize = true;
             this.lblSoLuongBanTrongNgay.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSoLuongBanTrongNgay.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.lblSoLuongBanTrongNgay.Location = new System.Drawing.Point(333, 451);
+            this.lblSoLuongBanTrongNgay.Location = new System.Drawing.Point(334, 451);
             this.lblSoLuongBanTrongNgay.Name = "lblSoLuongBanTrongNgay";
             this.lblSoLuongBanTrongNgay.Size = new System.Drawing.Size(20, 22);
             this.lblSoLuongBanTrongNgay.TabIndex = 68;
@@ -321,7 +321,7 @@
             // 
             this.lblHDTrongNgay.AutoSize = true;
             this.lblHDTrongNgay.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHDTrongNgay.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblHDTrongNgay.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.lblHDTrongNgay.Location = new System.Drawing.Point(71, 549);
             this.lblHDTrongNgay.Name = "lblHDTrongNgay";
             this.lblHDTrongNgay.Size = new System.Drawing.Size(166, 18);
@@ -334,24 +334,15 @@
             // 
             this.lblSPConKinhDoanh.AutoSize = true;
             this.lblSPConKinhDoanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSPConKinhDoanh.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblSPConKinhDoanh.ForeColor = System.Drawing.Color.CornflowerBlue;
             this.lblSPConKinhDoanh.Location = new System.Drawing.Point(70, 516);
             this.lblSPConKinhDoanh.Name = "lblSPConKinhDoanh";
             this.lblSPConKinhDoanh.Size = new System.Drawing.Size(209, 18);
             this.lblSPConKinhDoanh.TabIndex = 70;
             this.lblSPConKinhDoanh.Text = "Các sản phẩm còn kinh doanh";
+            this.lblSPConKinhDoanh.Click += new System.EventHandler(this.lblSPConKinhDoanh_Click);
             this.lblSPConKinhDoanh.MouseEnter += new System.EventHandler(this.lblThemNhanhSP_MouseEnter);
             this.lblSPConKinhDoanh.MouseLeave += new System.EventHandler(this.lblThemNhanhSP_MouseLeave);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::GUI.Properties.Resources.line;
-            this.pictureBox4.Location = new System.Drawing.Point(433, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(17, 689);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 47;
-            this.pictureBox4.TabStop = false;
             // 
             // ucMain
             // 
@@ -361,10 +352,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label11);
             this.Name = "ucMain";
-            this.Size = new System.Drawing.Size(1258, 684);
+            this.Size = new System.Drawing.Size(1258, 841);
             this.Load += new System.EventHandler(this.ucMain_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -373,7 +363,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pctAvatar)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -401,7 +390,6 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label lblHDTrongNgay;
         private System.Windows.Forms.Label lblSPConKinhDoanh;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.ListView lvwSPBanChay;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.ListView lvwSPBanCham;

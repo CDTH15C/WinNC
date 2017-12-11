@@ -41,5 +41,9 @@ namespace GUI
         {
             ((Label)sender).Parent.BackColor = Color.DodgerBlue;
         }
+
+        private void btnThemHD_MouseClick(object sender, MouseEventArgs e)
+        {
+        }
     }
 }

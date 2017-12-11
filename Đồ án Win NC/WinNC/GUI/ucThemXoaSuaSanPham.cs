@@ -16,5 +16,15 @@ namespace GUI
         {
             InitializeComponent();
         }
+
+        private void btn_MouseEnter(object sender, EventArgs e)
+        {
+            ((Button)(sender)).ForeColor = Color.White;
+        }
+
+        private void btn_MouseLeave(object sender, EventArgs e)
+        {
+            ((Button)(sender)).ForeColor = Color.Gray;
+        }
     }
 }

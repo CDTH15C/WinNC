@@ -3,3 +3,8 @@ C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\bin\De
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
 C:\Users\nguye\OneDrive\Documents\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.dll
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\bin\Debug\DTO.pdb
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.dll
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\DTO\obj\Debug\DTO.pdb

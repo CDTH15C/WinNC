@@ -98,7 +98,7 @@
             this.btnThongKeHD.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnThongKeHD.Controls.Add(this.label3);
             this.btnThongKeHD.Controls.Add(this.pictureBox3);
-            this.btnThongKeHD.Location = new System.Drawing.Point(392, 274);
+            this.btnThongKeHD.Location = new System.Drawing.Point(999, 286);
             this.btnThongKeHD.Name = "btnThongKeHD";
             this.btnThongKeHD.Size = new System.Drawing.Size(170, 181);
             this.btnThongKeHD.TabIndex = 10;
@@ -122,7 +122,7 @@
             this.btnSuaHD.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnSuaHD.Controls.Add(this.pictureBox1);
             this.btnSuaHD.Controls.Add(this.label1);
-            this.btnSuaHD.Location = new System.Drawing.Point(216, 87);
+            this.btnSuaHD.Location = new System.Drawing.Point(823, 99);
             this.btnSuaHD.Name = "btnSuaHD";
             this.btnSuaHD.Size = new System.Drawing.Size(170, 181);
             this.btnSuaHD.TabIndex = 9;
@@ -147,7 +147,7 @@
             this.btnTimKiemHD.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnTimKiemHD.Controls.Add(this.label2);
             this.btnTimKiemHD.Controls.Add(this.pictureBox2);
-            this.btnTimKiemHD.Location = new System.Drawing.Point(40, 274);
+            this.btnTimKiemHD.Location = new System.Drawing.Point(647, 286);
             this.btnTimKiemHD.Name = "btnTimKiemHD";
             this.btnTimKiemHD.Size = new System.Drawing.Size(346, 181);
             this.btnTimKiemHD.TabIndex = 8;
@@ -172,7 +172,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label6.Location = new System.Drawing.Point(665, 45);
+            this.label6.Location = new System.Drawing.Point(52, 55);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(187, 18);
             this.label6.TabIndex = 17;
@@ -183,7 +183,7 @@
             this.btnThemHD.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnThemHD.Controls.Add(this.pictureBox4);
             this.btnThemHD.Controls.Add(this.label5);
-            this.btnThemHD.Location = new System.Drawing.Point(40, 87);
+            this.btnThemHD.Location = new System.Drawing.Point(647, 99);
             this.btnThemHD.Name = "btnThemHD";
             this.btnThemHD.Size = new System.Drawing.Size(170, 181);
             this.btnThemHD.TabIndex = 12;
@@ -220,7 +220,7 @@
             this.btnXoaHD.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.btnXoaHD.Controls.Add(this.pictureBox5);
             this.btnXoaHD.Controls.Add(this.label7);
-            this.btnXoaHD.Location = new System.Drawing.Point(392, 87);
+            this.btnXoaHD.Location = new System.Drawing.Point(999, 99);
             this.btnXoaHD.Name = "btnXoaHD";
             this.btnXoaHD.Size = new System.Drawing.Size(170, 181);
             this.btnXoaHD.TabIndex = 12;
@@ -257,7 +257,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(37, 45);
+            this.label4.Location = new System.Drawing.Point(644, 57);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 18);
             this.label4.TabIndex = 11;

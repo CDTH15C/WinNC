@@ -18,7 +18,7 @@ namespace DTO
         string _cMND;
         string _anhDaiDien;
         string _maTaiKhoan_NV;
-        int _trangThai_NV;
+        bool _trangThai_NV;
 
         public string MaNV
         {
@@ -150,7 +150,7 @@ namespace DTO
             }
         }
 
-        public int TrangThai_NV
+        public bool TrangThai_NV
         {
             get
             {

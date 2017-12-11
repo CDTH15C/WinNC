@@ -8,7 +8,7 @@ namespace DAO
 {
     public class DataProvider
     {
-        private static string strConnect = @"Data Source=DESKTOP-CNG06HV\CDTH15C;Initial Catalog=QLShopThoiTrang;Integrated Security=True";
+        private static string strConnect = @"Data Source=localhost;Initial Catalog=QLShopThoiTrang;Integrated Security=True";
 
         public static SqlConnection CreateConnect()
         {

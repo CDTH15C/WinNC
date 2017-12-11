@@ -61,7 +61,7 @@ namespace DAO
                 }
                 if (!dr.IsDBNull(10))
                 {
-                    nv.TrangThai_NV = (int)dr[10];
+                    nv.TrangThai_NV = (bool)dr[10];
                 }
                 if (!dr.IsDBNull(11))
                 {
@@ -153,7 +153,7 @@ namespace DAO
                 }
                 if (!dr.IsDBNull(10))
                 {
-                    nv.TrangThai_NV = (int)dr[10];
+                    nv.TrangThai_NV = (bool)dr[10];
                 }
                 if (!dr.IsDBNull(11))
                 {

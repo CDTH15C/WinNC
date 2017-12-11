@@ -11,7 +11,7 @@ namespace GUI
 {
     public partial class frmMain : Form
     {
-        int pnlMinWidth = 82, pnlMaxWidth = 287;
+        int pnlMinWidth = 56, pnlMaxWidth = 287;
         int delta = 10;
 
         public frmMain()
@@ -38,7 +38,8 @@ namespace GUI
         private void pnlTop_Load(object sender, EventArgs e)
         {
             pnlTop.Width = this.Size.Width + 2;
-            picX.Location = new Point(pnlTop.Width - 40, pnlTop.Height - 22);
+            picX.Location = new Point(pnlTop.Width - 40, pnlTop.Height - 29);
+            btnMinimize.Location = new Point(picX.Location.X - 40, picX.Location.Y);
 
             ucMain uc = new ucMain();
             //uc.Location = new Point(0, 20);
@@ -68,8 +69,8 @@ namespace GUI
         private void btnSanPham_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucSanPhamOption uc = new ucSanPhamOption();
-            uc.Location = new Point(0, 20);
+            ucTimKiemSanPham uc = new ucTimKiemSanPham();
+            uc.Location = new Point(0, 0);
             pnlParent.Controls.Add(uc);
             uc.Show();
 
@@ -123,32 +124,52 @@ namespace GUI
         void ShrinkPanelMain()
         {
             pnlMain.Width -= delta;
-            pnlSubMain.Location = new Point(pnlMain.Width, pnlSubMain.Location.Y);
-           // pnlButtonExpandShrink.Location = new Point(pnlMain.Width + pnlButtonExpandShrink.Width / 2, pnlButtonExpandShrink.Location.Y);
-
-            picButtonExpandShrink.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\Expand.png");
             if (pnlMain.Width <= pnlMinWidth)
             {
                 pnlMain.Width = pnlMinWidth;
-                pnlSubMain.Location = new Point(pnlMain.Width, pnlSubMain.Location.Y);
-               // pnlButtonExpandShrink.Location = new Point(pnlMain.Width + pnlButtonExpandShrink.Width / 2, pnlButtonExpandShrink.Location.Y);
                 timerMain.Stop();
 
                 isShrink = false;
             }
         }
+
+        private void pnlMain_MouseClick(object sender, MouseEventArgs e)
+        {
+            timerMain.Start();
+            if (pnlMain.Width < pnlMaxWidth)
+            {
+                isExpand = true;
+                isShrink = false;
+            }
+
+            else
+            {
+                isExpand = false;
+                isShrink = true;
+            }
+        }
+
+        private void btnMinimize_MouseEnter(object sender, EventArgs e)
+        {
+            btnMinimize.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\minimize_enter.png");
+        }
+
+        private void btnMinimize_MouseLeave(object sender, EventArgs e)
+        {
+            btnMinimize.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\minimize.png");
+        }
+
+        private void btnMinimize_MouseClick(object sender, MouseEventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
         void ExpandPanelMain()
         {
             pnlMain.Width += delta;
-            pnlSubMain.Location = new Point(pnlMain.Width, pnlSubMain.Location.Y);
-           // pnlButtonExpandShrink.Location = new Point(pnlMain.Width + pnlButtonExpandShrink.Width / 2, pnlButtonExpandShrink.Location.Y);
-
-            picButtonExpandShrink.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\Shrink.png");
             if (pnlMain.Width >= pnlMaxWidth)
             {
                 pnlMain.Width = pnlMaxWidth;
-                pnlSubMain.Location = new Point(pnlMain.Width, pnlSubMain.Location.Y);
-               // pnlButtonExpandShrink.Location = new Point(pnlMain.Width + pnlButtonExpandShrink.Width / 2, pnlButtonExpandShrink.Location.Y);
                 timerMain.Stop();
 
                 isExpand = false;

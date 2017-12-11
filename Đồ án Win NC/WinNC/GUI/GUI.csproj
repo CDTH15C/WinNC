@@ -62,11 +62,11 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="frmThemNhanhSP.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="frmThemNhanhSP.Designer.cs">
+      <DependentUpon>frmThemNhanhSP.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,14 +105,20 @@
     <Compile Include="ucThemXoaSuaSanPham.Designer.cs">
       <DependentUpon>ucThemXoaSuaSanPham.cs</DependentUpon>
     </Compile>
+    <Compile Include="ucTimKiemSanPham.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucTimKiemSanPham.Designer.cs">
+      <DependentUpon>ucTimKiemSanPham.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="frmThemNhanhSP.resx">
+      <DependentUpon>frmThemNhanhSP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ucThemXoaSuaSanPham.resx">
       <DependentUpon>ucThemXoaSuaSanPham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucTimKiemSanPham.resx">
+      <DependentUpon>ucTimKiemSanPham.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
@@ -203,6 +212,8 @@
     <None Include="Resources\IMG\Icon\ThemHoaDon.png" />
     <None Include="Resources\IMG\Icon\bow.png" />
     <None Include="Resources\IMG\Icon\user.png" />
+    <None Include="Resources\IMG\Icon\minimize.png" />
+    <None Include="Resources\IMG\Icon\show_password.png" />
     <Content Include="Resources\IMG\Icon\X-button_enter.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
