@@ -42,24 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChatLieu_DTO.cs" />
-    <Compile Include="ChiTietSanPham_DTO.cs" />
-    <Compile Include="HinhAnh_DTO.cs" />
-    <Compile Include="HoaDonBan_DTO.cs" />
-    <Compile Include="HoaDonNhap_DTO.cs" />
-    <Compile Include="KhachHang_DTO.cs" />
-    <Compile Include="LoaiKhachHang_DTO.cs" />
-    <Compile Include="LoaiSanPham_DTO.cs" />
-    <Compile Include="LoaiTaiKhoan_DTO.cs" />
-    <Compile Include="Mau_DTO.cs" />
-    <Compile Include="NhanVien_DTO.cs" />
-    <Compile Include="NhaSanXuat_DTO.cs" />
-    <Compile Include="PhanCong_DTO.cs" />
+    <Compile Include="clsChatLieu_DTO.cs" />
+    <Compile Include="clsChiTietHDNhap_DTO.cs" />
+    <Compile Include="clsChiTietSanPham_DTO.cs" />
+    <Compile Include="clsHoaDonBan_DTO.cs" />
+    <Compile Include="clsHoaDonNhap_DTO.cs" />
+    <Compile Include="clsLoaiSanPham_DTO.cs" />
+    <Compile Include="clsMau_DTO.cs" />
+    <Compile Include="clsNhanVien_DTO.cs" />
+    <Compile Include="clsNhaSanXuat_DTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SanPham_DTO.cs" />
-    <Compile Include="Size_DTO.cs" />
-    <Compile Include="TaiKhoan_DTO.cs" />
-    <Compile Include="ViPham_DTO.cs" />
+    <Compile Include="clsSanPham_DTO.cs" />
+    <Compile Include="clsSize_DTO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

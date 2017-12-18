@@ -39,7 +39,10 @@ D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucHoaDonOption.reso
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucMain.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPham.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPhamOption.resources
-D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucThemXoaSuaSanPham.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmThemNhanhSP.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucTimKiemSanPham.resources
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmChiTietSanPham.resources
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucThemSanPham.resources
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucQLNhanVien.resources
+D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucXoaSuaSanPham.resources

@@ -40,14 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChiTietSanPham_BUS.cs" />
-    <Compile Include="HinhAnh_BUS.cs" />
-    <Compile Include="LoaiSanPham_BUS.cs" />
-    <Compile Include="Mau_BUS.cs" />
-    <Compile Include="NhanVien_BUS.cs" />
+    <Compile Include="clsChatLieu_BUS.cs" />
+    <Compile Include="clsChiTietHDNhap_BUS.cs" />
+    <Compile Include="clsChiTietSanPham_BUS.cs" />
+    <Compile Include="clsHoaDonNhap_BUS.cs" />
+    <Compile Include="clsLoaiSanPham_BUS.cs" />
+    <Compile Include="clsMau_BUS.cs" />
+    <Compile Include="clsNhanVien_BUS.cs" />
+    <Compile Include="clsNhaSanXuat_BUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SanPham_BUS.cs" />
-    <Compile Include="Size_BUS.cs" />
+    <Compile Include="clsSanPham_BUS.cs" />
+    <Compile Include="clsSize_BUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAO\DAO.csproj">

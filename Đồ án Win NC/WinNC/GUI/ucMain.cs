@@ -46,83 +46,13 @@ namespace GUI
         void LoadThongTinNV()
         {
             pctAvatar.ImageLocation = Program.NV_Login.AnhDaiDien;
-            lblChucVu.Text = Program.NV_Login.TenLoaiTK;
+            lblChucVu.Text = Program.NV_Login.ChucVu;
             lblTenNV.Text = Program.NV_Login.HoTen;
         }
-        void ThemListViewItem(HinhAnh_DTO ha, string condition)
-        {
-            var lvi = new ListViewItem(new[] { ha.SanPham.TenSP, ha.SanPham.GiaBan.ToString("#,### VNĐ") });
-            //  var lvi = new ListViewItem(new[] { ha.TenSP, ha.GiaBan });
-            // lvi.SubItems.Add(ha.MaSP.ToString());
-            // lvi.SubItems.Add(ha.GiaBan.ToString("#,### VNĐ"));
-
-            string url = ha.LinkAnh;
-
-            if (condition == "BanChay")
-            {
-                if (url != "")
-                {
-                    Bitmap bm = new Bitmap(url);
-                    imageList1.Images.Add(url, bm);
-                    lvi.ImageKey = url;
-                }
-                lvwSPBanChay.Items.Add(lvi);
-            }
-            else
-            {
-                if (url != "")
-                {
-                    Bitmap bm = new Bitmap(url);
-                    imageList2.Images.Add(url, bm);
-                    lvi.ImageKey = url;
-                }
-                lvwSPBanCham.Items.Add(lvi);
-            }
-        }
-        void LoadDuLieuChoListView_SPBanChay()
-        {
-            lvwSPBanChay.Items.Clear();
-            List<HinhAnh_DTO> dsHA = new List<HinhAnh_DTO>();
-            HinhAnh_BUS obj = new HinhAnh_BUS();
-            string condition = "BanChay";
-            dsHA = obj.layDsHinhAnh(condition);
-
-            foreach (HinhAnh_DTO ha in dsHA)
-            {
-                ThemListViewItem(ha, condition);
-            }
-        }
-
-        void LoadDuLieuChoListView_SPBanCham()
-        {
-            lvwSPBanCham.Items.Clear();
-            List<HinhAnh_DTO> dsHA = new List<HinhAnh_DTO>();
-            HinhAnh_BUS obj = new HinhAnh_BUS();
-            string condition = "BanCham";
-            dsHA = obj.layDsHinhAnh(condition);
-
-            foreach (HinhAnh_DTO ha in dsHA)
-            {
-                ThemListViewItem(ha, condition);
-            }
-        }
-
-
+      
         private void ucMain_Load(object sender, EventArgs e)
         {
             LoadThongTinNV();
-            LoadDuLieuChoListView_SPBanChay();
-            LoadDuLieuChoListView_SPBanCham();
-        }
-
-        private void lvwSPBanChay_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lvwSPBanCham_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void lblThemNhanhSP_Click(object sender, EventArgs e)

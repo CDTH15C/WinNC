@@ -6,11 +6,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
 namespace GUI
 {
     public partial class frmMain : Form
     {
+
         int pnlMinWidth = 56, pnlMaxWidth = 287;
         int delta = 10;
 
@@ -69,7 +69,7 @@ namespace GUI
         private void btnSanPham_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucTimKiemSanPham uc = new ucTimKiemSanPham();
+            ucThemSanPham uc = new ucThemSanPham();
             uc.Location = new Point(0, 0);
             pnlParent.Controls.Add(uc);
             uc.Show();
@@ -82,7 +82,7 @@ namespace GUI
         private void btnHoaDon_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucHoaDonOption uc = new ucHoaDonOption();
+            ucTimKiemSanPham uc = new ucTimKiemSanPham();
             uc.Location = new Point(0, 20);
             pnlParent.Controls.Add(uc);
             uc.Show();
@@ -101,10 +101,13 @@ namespace GUI
         }
         private void btnSanPham_MouseEnter(object sender, EventArgs e)
         {
+           // pnlSanPham.Visible = true;
+           // pnlSanPham.Location = new Point(0, btnSanPham.Location.Y);
             btnSanPham.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\Product_enter.png");
         }
         private void btnSanPham_MouseLeave(object sender, EventArgs e)
         {
+          //  pnlSanPham.Visible = false;
             btnSanPham.Image = Image.FromFile("..\\..\\Resources\\IMG\\Icon\\Product.png");
         }
         private void btnHoaDon_MouseEnter(object sender, EventArgs e)

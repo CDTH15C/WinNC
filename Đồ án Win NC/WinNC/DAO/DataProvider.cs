@@ -8,36 +8,60 @@ namespace DAO
 {
     public class DataProvider
     {
-        private static string strConnect = @"Data Source=localhost;Initial Catalog=QLShopThoiTrang;Integrated Security=True";
+        private static SqlConnection conn = new SqlConnection(@"Data Source=localhost;Initial Catalog=ShopThoiTrang;Integrated Security=True");
 
-        public static SqlConnection CreateConnect()
-        {
-            SqlConnection connect = new SqlConnection(strConnect);
-            connect.Open();
-            return connect;
-        }
-
-        public static void CloseConnect(SqlConnection conn)
+        public static void CloseConnect()
         {
             conn.Close();
         }
 
         public static SqlDataReader Retrieve_Table(string sql)
         {
-            SqlDataReader dr;
-            SqlConnection conn = DataProvider.CreateConnect();
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            dr = cmd.ExecuteReader();
-            return dr;
+            try
+            {
+                conn.Open();
+                SqlDataReader dr;
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                dr = cmd.ExecuteReader();
+                return dr;
+            }
+            catch(Exception e)
+            {
+                return null;
+            }
+            
         }
 
 
         public static int Retrieve_Count(string sql)
         {
-            SqlConnection conn = DataProvider.CreateConnect();
-            SqlCommand cmd = new SqlCommand(sql, conn);
-            int row = (int)cmd.ExecuteScalar();
-            return row;
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                int row = (int)cmd.ExecuteScalar();
+                return row;
+            }
+            catch (Exception e)
+            {
+                return 0;
+            }
+            
+        }
+
+        public static int ExecuteInsertUpdateDelete(string query)
+        {
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(query, conn);
+                int kq = cmd.ExecuteNonQuery();
+                return kq;
+            }
+            catch(Exception e)
+            {
+                return 0;
+            }
         }
     }
 }

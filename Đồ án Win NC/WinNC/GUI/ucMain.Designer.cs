@@ -82,7 +82,6 @@
             this.lvwSPBanCham.Size = new System.Drawing.Size(753, 274);
             this.lvwSPBanCham.TabIndex = 66;
             this.lvwSPBanCham.UseCompatibleStateImageBehavior = false;
-            this.lvwSPBanCham.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanCham_SelectedIndexChanged);
             // 
             // imageList2
             // 
@@ -100,7 +99,6 @@
             this.lvwSPBanChay.Size = new System.Drawing.Size(753, 274);
             this.lvwSPBanChay.TabIndex = 65;
             this.lvwSPBanChay.UseCompatibleStateImageBehavior = false;
-            this.lvwSPBanChay.SelectedIndexChanged += new System.EventHandler(this.lvwSPBanChay_SelectedIndexChanged);
             // 
             // imageList1
             // 
@@ -179,7 +177,7 @@
             this.pctAvatar.Location = new System.Drawing.Point(280, 16);
             this.pctAvatar.Name = "pctAvatar";
             this.pctAvatar.Size = new System.Drawing.Size(123, 132);
-            this.pctAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctAvatar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pctAvatar.TabIndex = 54;
             this.pctAvatar.TabStop = false;
             // 

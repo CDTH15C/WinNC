@@ -15,7 +15,7 @@ namespace GUI
     public partial class frmLogin : Form
     {
         Thread th;
-        NhanVien_DTO NV_Login;
+        clsNhanVien_DTO NV_Login;
         public frmLogin()
         {
             InitializeComponent();
@@ -41,17 +41,16 @@ namespace GUI
             ((Label)sender).Font = new Font(((Label)sender).Font, FontStyle.Regular);
         }
 
-        void setNV(NhanVien_DTO nv)
+        void setNV(clsNhanVien_DTO nv)
         {
-            Program.NV_Login = new NhanVien_DTO();
+            Program.NV_Login.MaNV = nv.MaNV;
             Program.NV_Login.AnhDaiDien = nv.AnhDaiDien;
             Program.NV_Login.HoTen = nv.HoTen;
-            Program.NV_Login.TenLoaiTK = nv.TenLoaiTK;
+            Program.NV_Login.ChucVu = nv.ChucVu;
         }
 
         void XuLyDangNhap()
         {
-            NhanVien_BUS obj = new NhanVien_BUS();
             string Username = txtUsername.Text;
             string Password = txtPassword.Text;
             if (Username == "" || Password == "")
@@ -60,12 +59,11 @@ namespace GUI
             }
             else
             {
-                if (obj.KtraDangNhap(Username, Password))
+                if (clsNhanVien_BUS.KtraDangNhap(Username, Password))
                 {
                     // lấy thông tin nhân viên .
-
-                    NhanVien_BUS obj2 = new NhanVien_BUS();
-                    NV_Login = obj2.LayThongTinNV(Username);
+                    
+                    NV_Login = clsNhanVien_BUS.LayThongTinNV(Username);
                     setNV(NV_Login);
                     // load frmMain
                     this.Close();

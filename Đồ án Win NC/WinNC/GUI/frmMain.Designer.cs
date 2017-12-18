@@ -30,7 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnlTop = new System.Windows.Forms.Panel();
+            this.btnMinimize = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.picX = new System.Windows.Forms.PictureBox();
             this.timerMain = new System.Windows.Forms.Timer(this.components);
             this.pnlParent = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,16 +44,14 @@
             this.btnHoaDon = new System.Windows.Forms.PictureBox();
             this.btnSanPham = new System.Windows.Forms.PictureBox();
             this.btnMainMenu = new System.Windows.Forms.PictureBox();
-            this.btnMinimize = new System.Windows.Forms.PictureBox();
-            this.picX = new System.Windows.Forms.PictureBox();
             this.pnlTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picX)).BeginInit();
             this.pnlMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHoaDon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSanPham)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMainMenu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picX)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlTop
@@ -65,6 +65,19 @@
             this.pnlTop.Size = new System.Drawing.Size(1355, 31);
             this.pnlTop.TabIndex = 1;
             // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Image = global::GUI.Properties.Resources.minimize;
+            this.btnMinimize.Location = new System.Drawing.Point(1282, 0);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.Size = new System.Drawing.Size(20, 30);
+            this.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnMinimize.TabIndex = 2;
+            this.btnMinimize.TabStop = false;
+            this.btnMinimize.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnMinimize_MouseClick);
+            this.btnMinimize.MouseEnter += new System.EventHandler(this.btnMinimize_MouseEnter);
+            this.btnMinimize.MouseLeave += new System.EventHandler(this.btnMinimize_MouseLeave);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -76,13 +89,26 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "CỬA HÀNG SUNFLOWER";
             // 
+            // picX
+            // 
+            this.picX.Image = global::GUI.Properties.Resources.X_button_;
+            this.picX.Location = new System.Drawing.Point(1308, -1);
+            this.picX.Name = "picX";
+            this.picX.Size = new System.Drawing.Size(13, 31);
+            this.picX.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picX.TabIndex = 0;
+            this.picX.TabStop = false;
+            this.picX.Click += new System.EventHandler(this.picX_Click);
+            this.picX.MouseEnter += new System.EventHandler(this.picX_MouseEnter);
+            this.picX.MouseLeave += new System.EventHandler(this.picX_MouseLeave);
+            // 
             // timerMain
             // 
             this.timerMain.Tick += new System.EventHandler(this.timerMain_Tick);
             // 
             // pnlParent
             // 
-            this.pnlParent.Location = new System.Drawing.Point(51, 28);
+            this.pnlParent.Location = new System.Drawing.Point(52, 28);
             this.pnlParent.Name = "pnlParent";
             this.pnlParent.Size = new System.Drawing.Size(1302, 916);
             this.pnlParent.TabIndex = 6;
@@ -133,7 +159,7 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.BackColor = System.Drawing.Color.SlateGray;
+            this.pnlMain.BackColor = System.Drawing.SystemColors.Desktop;
             this.pnlMain.Controls.Add(this.label20);
             this.pnlMain.Controls.Add(this.btnDangXuat);
             this.pnlMain.Controls.Add(this.label4);
@@ -142,9 +168,9 @@
             this.pnlMain.Controls.Add(this.btnSanPham);
             this.pnlMain.Controls.Add(this.label2);
             this.pnlMain.Controls.Add(this.btnMainMenu);
-            this.pnlMain.Location = new System.Drawing.Point(-2, 28);
+            this.pnlMain.Location = new System.Drawing.Point(0, 28);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(55, 757);
+            this.pnlMain.Size = new System.Drawing.Size(50, 757);
             this.pnlMain.TabIndex = 2;
             this.pnlMain.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnlMain_MouseClick);
             // 
@@ -197,32 +223,6 @@
             this.btnMainMenu.TabStop = false;
             this.btnMainMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnMainMenu_MouseClick);
             // 
-            // btnMinimize
-            // 
-            this.btnMinimize.Image = global::GUI.Properties.Resources.minimize;
-            this.btnMinimize.Location = new System.Drawing.Point(1282, 0);
-            this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(20, 30);
-            this.btnMinimize.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnMinimize.TabIndex = 2;
-            this.btnMinimize.TabStop = false;
-            this.btnMinimize.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnMinimize_MouseClick);
-            this.btnMinimize.MouseEnter += new System.EventHandler(this.btnMinimize_MouseEnter);
-            this.btnMinimize.MouseLeave += new System.EventHandler(this.btnMinimize_MouseLeave);
-            // 
-            // picX
-            // 
-            this.picX.Image = global::GUI.Properties.Resources.X_button_;
-            this.picX.Location = new System.Drawing.Point(1308, -1);
-            this.picX.Name = "picX";
-            this.picX.Size = new System.Drawing.Size(13, 31);
-            this.picX.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picX.TabIndex = 0;
-            this.picX.TabStop = false;
-            this.picX.Click += new System.EventHandler(this.picX_Click);
-            this.picX.MouseEnter += new System.EventHandler(this.picX_MouseEnter);
-            this.picX.MouseLeave += new System.EventHandler(this.picX_MouseLeave);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -242,14 +242,14 @@
             this.Load += new System.EventHandler(this.pnlTop_Load);
             this.pnlTop.ResumeLayout(false);
             this.pnlTop.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picX)).EndInit();
             this.pnlMain.ResumeLayout(false);
             this.pnlMain.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnDangXuat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHoaDon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSanPham)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMainMenu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnMinimize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picX)).EndInit();
             this.ResumeLayout(false);
 
         }
