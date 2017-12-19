@@ -33,6 +33,9 @@ namespace BUS
         {
             return clsSanPham_DAO.DemSLSanPham(ten);
         }
-        
+        public static bool CapNhatSanPham(clsSanPham_DTO sp)
+        {
+            return clsSanPham_DAO.CapNhatSanPham(sp);
+        }
     }
 }

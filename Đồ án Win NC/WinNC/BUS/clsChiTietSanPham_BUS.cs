@@ -38,5 +38,10 @@ namespace BUS
         {
             return clsChiTietSanPham_DAO.CapNhatTrangThai(trangThai, maSP, maMau, maChatLieu, maSize);
         }
+        public static bool CapNhatCTSP(clsChiTietSanPham_DTO ctsp)
+        {
+            return clsChiTietSanPham_DAO.CapNhatCTSP(ctsp);
+        }
+        
     }
 }

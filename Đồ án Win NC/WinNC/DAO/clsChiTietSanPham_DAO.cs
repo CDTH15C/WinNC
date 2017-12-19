@@ -260,5 +260,13 @@ namespace DAO
             DataProvider.CloseConnect();
             return kq == 1;
         }
+
+        public static bool CapNhatCTSP(clsChiTietSanPham_DTO ctsp)
+        {
+            string query = string.Format("update ChiTietSanPham set HinhAnh = '{0}', GiaBan = {1}, TrangThai = '{2}' where MaSP = '{3}' and MaMau = '{4}' and MaChatLieu = '{5}' and MaSize = '{6}'", ctsp.HinhAnh, ctsp.GiaTien, ctsp.TrangThai, ctsp.MaSP, ctsp.MaMau, ctsp.MaChatLieu, ctsp.MaSize);
+            int kq = DataProvider.ExecuteInsertUpdateDelete(query);
+            DataProvider.CloseConnect();
+            return kq == 1;
+        }
     }
 }

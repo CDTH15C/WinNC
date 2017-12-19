@@ -245,6 +245,10 @@ namespace GUI
 
         private void dgvSP_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
             List<string> info = new List<string>();
 
             DataGridViewRow r = dgvSP.Rows[e.RowIndex];

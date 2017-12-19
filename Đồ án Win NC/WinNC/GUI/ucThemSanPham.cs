@@ -28,7 +28,7 @@ namespace GUI
             DialogResult d = ofdHinh.ShowDialog();
             if (d == DialogResult.OK)
             {
-                lblDuongDan.Text = @"Data\SanPham\" + ofdHinh.FileName;
+                lblDuongDan.Text = @"Data\SanPham\" + ofdHinh.SafeFileName;
                 picHinh.Image = Image.FromFile(ofdHinh.FileName);
                 btnChonAnh.BackColor = Color.Silver;
                 btnChonAnh.Text = "Đổi ảnh khác";
@@ -84,7 +84,6 @@ namespace GUI
             List<clsSanPham_DTO> dsSP = clsSanPham_BUS.LayDSSPTheoTen(txtTenHang.Text);
             dgvTenHang.AutoGenerateColumns = false;
             dgvTenHang.DataSource = dsSP;
-            resetControl();
         }
 
         private void dgvTenHang_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
@@ -94,6 +93,10 @@ namespace GUI
 
         private void dgvTenHang_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
             DataGridViewRow r = dgvTenHang.Rows[e.RowIndex];
 
             txtMa.Text = r.Cells[1].Value.ToString();
@@ -282,12 +285,12 @@ namespace GUI
 
             ctsp.GiaTien = Convert.ToInt32(dgvHoaDonNhap.Rows[i].Cells["colGiaBan"].Value.ToString());
             ctsp.HinhAnh = "Data\\AnhDaiDien\\" + ofdHinh.SafeFileName;
-            ctsp.SoLuongTonKho = cthd.SoLuong;
+            ctsp.SoLuongTonKho = Program.convertToInt(dgvHoaDonNhap.Rows[i].Cells["colSoLuong"].Value.ToString());
             ctsp.TrangThai = true;
 
             cthd.MaChiTietSP = ctsp.MaChiTietSP;
             cthd.DonGia = Program.convertToInt(dgvHoaDonNhap.Rows[i].Cells["colGiaNhap"].Value.ToString());
-            cthd.SoLuong = Program.convertToInt(dgvHoaDonNhap.Rows[i].Cells["colSoLuong"].Value.ToString());
+            cthd.SoLuong = ctsp.SoLuongTonKho;
             cthd.TrangThai = true;
         }
 
@@ -601,7 +604,7 @@ namespace GUI
 
         void resetControl()
         {
-            cboNSX.SelectedIndex = cboLoai.SelectedIndex = cboMau.SelectedIndex = cboChatLieu.SelectedIndex = cboSize.SelectedIndex = 1;
+            cboNSX.SelectedIndex = cboLoai.SelectedIndex = cboMau.SelectedIndex = cboChatLieu.SelectedIndex = cboSize.SelectedIndex = 0;
             txtTenHang.Text = txtGiaNhap.Text = txtGiaBan.Text = "";
             txtSoLuong.Text = "1";
             cboNSX.Enabled = cboLoai.Enabled = cboMau.Enabled = cboChatLieu.Enabled = cboSize.Enabled = true;
@@ -620,6 +623,10 @@ namespace GUI
 
         private void dgvChiTiet_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
             try
             {
                 lblDuongDan.Text = dgvChiTiet.Rows[e.RowIndex].Cells[3].Value.ToString();

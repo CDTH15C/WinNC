@@ -162,5 +162,13 @@ namespace DAO
             DataProvider.CloseConnect();
             return kq;
         }
+
+        public static bool CapNhatSanPham(clsSanPham_DTO sp)
+        {
+            string query = string.Format("update SanPham set TenSP = N'{0}', MaLoaiSP = '{1}', MaNhaSX = '{2}', NgayNhapKho ='{3}', GioiTinh = N'{4}', TrangThai = '{5}' where MaSP = '{6}'", sp.TenSP, sp.MaLoaiSP, sp.MaNhaSX, sp.NgayNhapKho, sp.GioiTinh, sp.TrangThai_SP, sp.MaSP);
+            int kq = DataProvider.ExecuteInsertUpdateDelete(query);
+            DataProvider.CloseConnect();
+            return kq == 1;
+        }
     }
 }

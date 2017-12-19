@@ -69,7 +69,7 @@ namespace GUI
         private void btnSanPham_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucThemSanPham uc = new ucThemSanPham();
+            ucXoaSuaSanPham uc = new ucXoaSuaSanPham();
             uc.Location = new Point(0, 0);
             pnlParent.Controls.Add(uc);
             uc.Show();
