@@ -61,6 +61,10 @@ namespace GUI
                 if (clsChiTietSanPham_BUS.CapNhatCTSP(ctsp))
                 {
                     MessageBox.Show("Cập nhật thành công", "Thông báo",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    List<clsChiTietSanPham_DTO> dsSP = clsChiTietSanPham_BUS.Retrieve_ChiTietSanPham("", "", "", "", false, 0, 0, 0, "");
+
+                    dgvSanPham.AutoGenerateColumns = false;
+                    dgvSanPham.DataSource = dsSP;
                     resetControl();
                 }
             }
@@ -75,6 +79,7 @@ namespace GUI
                 dgvSanPham.AutoGenerateColumns = false;
                 dgvSanPham.DataSource = dsSP;
                 MessageBox.Show("Đã xóa thành công sản phẩm " + txtTenHang.Text, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                resetControl();
             }
             else
             {

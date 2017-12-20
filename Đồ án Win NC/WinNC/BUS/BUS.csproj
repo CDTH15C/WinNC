@@ -43,6 +43,7 @@
     <Compile Include="clsChatLieu_BUS.cs" />
     <Compile Include="clsChiTietHDNhap_BUS.cs" />
     <Compile Include="clsChiTietSanPham_BUS.cs" />
+    <Compile Include="clsHoaDonBan_BUS.cs" />
     <Compile Include="clsHoaDonNhap_BUS.cs" />
     <Compile Include="clsLoaiSanPham_BUS.cs" />
     <Compile Include="clsMau_BUS.cs" />

@@ -45,6 +45,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblDuongDan = new System.Windows.Forms.Label();
             this.pnlHoaDonNhap = new System.Windows.Forms.Panel();
+            this.lblTongTien = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.txtNgayLap = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
@@ -157,6 +159,8 @@
             // 
             // pnlHoaDonNhap
             // 
+            this.pnlHoaDonNhap.Controls.Add(this.lblTongTien);
+            this.pnlHoaDonNhap.Controls.Add(this.label8);
             this.pnlHoaDonNhap.Controls.Add(this.txtNgayLap);
             this.pnlHoaDonNhap.Controls.Add(this.label24);
             this.pnlHoaDonNhap.Controls.Add(this.label);
@@ -170,6 +174,28 @@
             this.pnlHoaDonNhap.Size = new System.Drawing.Size(1336, 605);
             this.pnlHoaDonNhap.TabIndex = 106;
             this.pnlHoaDonNhap.Visible = false;
+            // 
+            // lblTongTien
+            // 
+            this.lblTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTongTien.ForeColor = System.Drawing.Color.ForestGreen;
+            this.lblTongTien.Location = new System.Drawing.Point(784, 74);
+            this.lblTongTien.Name = "lblTongTien";
+            this.lblTongTien.Size = new System.Drawing.Size(208, 38);
+            this.lblTongTien.TabIndex = 115;
+            this.lblTongTien.Text = "100,000,000 VNĐ";
+            this.lblTongTien.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label8.Location = new System.Drawing.Point(714, 94);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 18);
+            this.label8.TabIndex = 114;
+            this.label8.Text = "Tổng tiền:";
             // 
             // txtNgayLap
             // 
@@ -366,7 +392,7 @@
             this.colGiaNhap.HeaderText = "Giá nhập kho (VNĐ)";
             this.colGiaNhap.Name = "colGiaNhap";
             this.colGiaNhap.ReadOnly = true;
-            this.colGiaNhap.Width = 126;
+            this.colGiaNhap.Width = 124;
             // 
             // colSoLuong
             // 
@@ -378,7 +404,7 @@
             this.colSoLuong.HeaderText = "Số lượng";
             this.colSoLuong.Name = "colSoLuong";
             this.colSoLuong.ReadOnly = true;
-            this.colSoLuong.Width = 92;
+            this.colSoLuong.Width = 90;
             // 
             // colMaSP
             // 
@@ -1253,5 +1279,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colGiaBan;
         private System.Windows.Forms.DataGridViewTextBoxColumn colLoaiSP;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGioiTinh;
+        private System.Windows.Forms.Label lblTongTien;
+        private System.Windows.Forms.Label label8;
     }
 }

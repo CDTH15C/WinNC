@@ -46,3 +46,30 @@ D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmChiTietSanPham.r
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucThemSanPham.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucQLNhanVien.resources
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucXoaSuaSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe.config
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.exe
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.exe
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\GUI.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DAO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\BUS.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DTO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\bin\Debug\DAO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmChiTietSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmLogin.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmMain.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.frmThemNhanhSP.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucHoaDonOption.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucMain.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucQLNhanVien.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucSanPhamOption.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucThemSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucXoaSuaSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucTimKiemSanPham.resources
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\GUI\obj\x86\Debug\GUI.ucBanHang.resources

@@ -6,64 +6,61 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class clsHoaDonBan_DTO
+    public class clsChiTietHDBan_DTO
     {
-        string _maHDBan;
-        string _maNVLap;
-        DateTime _ngayLapHD;
-        decimal _thanhTien;
-        bool _trangThai;
+        string maHDBan, maChiTietSP;
+        int donGia, soLuong;
+        bool trangThai;
 
         public string MaHDBan
         {
             get
             {
-                return _maHDBan;
+                return maHDBan;
             }
 
             set
             {
-                _maHDBan = value;
-            }
-        }
-        
-
-        public string MaNVLap
-        {
-            get
-            {
-                return _maNVLap;
-            }
-
-            set
-            {
-                _maNVLap = value;
+                maHDBan = value;
             }
         }
 
-        public DateTime NgayLapHD
+        public string MaChiTietSP
         {
             get
             {
-                return _ngayLapHD;
+                return maChiTietSP;
             }
 
             set
             {
-                _ngayLapHD = value;
+                maChiTietSP = value;
             }
         }
 
-        public decimal ThanhTien
+        public int DonGia
         {
             get
             {
-                return _thanhTien;
+                return donGia;
             }
 
             set
             {
-                _thanhTien = value;
+                donGia = value;
+            }
+        }
+
+        public int SoLuong
+        {
+            get
+            {
+                return soLuong;
+            }
+
+            set
+            {
+                soLuong = value;
             }
         }
 
@@ -71,12 +68,12 @@ namespace DTO
         {
             get
             {
-                return _trangThai;
+                return trangThai;
             }
 
             set
             {
-                _trangThai = value;
+                trangThai = value;
             }
         }
     }

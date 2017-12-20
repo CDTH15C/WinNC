@@ -12,3 +12,10 @@ D:\GitHub\WinNC\Đồ án Win NC\WinNC\DAO\bin\Debug\DTO.pdb
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.dll
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\bin\Debug\DAO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\bin\Debug\DAO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\bin\Debug\DTO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\bin\Debug\DTO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\DAO\obj\Debug\DAO.pdb

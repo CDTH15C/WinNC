@@ -69,7 +69,7 @@ namespace GUI
         private void btnSanPham_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucXoaSuaSanPham uc = new ucXoaSuaSanPham();
+            ucBanHang uc = new ucBanHang();
             uc.Location = new Point(0, 0);
             pnlParent.Controls.Add(uc);
             uc.Show();
@@ -82,7 +82,7 @@ namespace GUI
         private void btnHoaDon_MouseClick(object sender, MouseEventArgs e)
         {
             pnlParent.Controls.Clear();
-            ucTimKiemSanPham uc = new ucTimKiemSanPham();
+            ucThemSanPham uc = new ucThemSanPham();
             uc.Location = new Point(0, 20);
             pnlParent.Controls.Add(uc);
             uc.Show();

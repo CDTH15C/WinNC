@@ -367,7 +367,6 @@ namespace GUI
             
 
             dgvHoaDonNhap.DataSource = dtHoaDon;
-            dgvHoaDonNhap.AutoGenerateColumns = false;
 
             resetControl();
             MessageBox.Show("Đã thêm vào hàng chờ xử lý");
@@ -430,6 +429,14 @@ namespace GUI
 
         private void btnHoaDonNhap_Click(object sender, EventArgs e)
         {
+            int n = dgvHoaDonNhap.Rows.Count;
+            long s = 0;
+            for(int i = 0; i<n;i++)
+            {
+                DataGridViewRow r = dgvHoaDonNhap.Rows[i];
+                s += Program.convertToInt(r.Cells["colSoLuong"].Value.ToString()) * Program.convertToInt(r.Cells["colGiaNhap"].Value.ToString());
+            }
+            lblTongTien.Text = Program.convertToCurrency(s)+ " VNĐ";
             ChangeTab(false, Color.WhiteSmoke, Color.White);
         }
 
@@ -465,7 +472,7 @@ namespace GUI
             hd.MaNVLap = Program.NV_Login.MaNV;
             hd.NgayLapHD = DateTime.Now;
             hd.TrangThai = true;
-            hd.TongTien = 0;
+            hd.TongTien = Program.convertToInt(lblTongTien.Text.Substring(0,lblTongTien.Text.Length-4));
             if (clsHoaDonNhap_BUS.ThemHDNhap(hd))
             {
                 for (int i = 0; i < n; i++)
@@ -533,17 +540,12 @@ namespace GUI
             {
                 MessageBox.Show("Không thể tạo hóa đơn");
             }
-            
 
+            lblTongTien.Text = "0 VNĐ";
         }
 
         private void dgvHoaDonNhap_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-
-            if (dgvHoaDonNhap.RowCount <= 0)
-            {
-                return;
-            }
 
             dgvHoaDonNhap.Rows[e.RowIndex].Height = 50;
             if (dgvHoaDonNhap.Columns[e.ColumnIndex].Name == "colMaMau")

@@ -45,6 +45,7 @@
     <Compile Include="clsChatLieu_DAO.cs" />
     <Compile Include="clsChiTietHDNhap_DAO.cs" />
     <Compile Include="clsChiTietSanPham_DAO.cs" />
+    <Compile Include="clsHoaDonBan_DAO.cs" />
     <Compile Include="clsHoaDonNhap_DAO.cs" />
     <Compile Include="clsNhaSanXuat_DAO.cs" />
     <Compile Include="DataProvider.cs" />

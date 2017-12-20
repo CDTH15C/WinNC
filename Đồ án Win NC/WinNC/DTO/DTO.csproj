@@ -43,7 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsChatLieu_DTO.cs" />
+    <Compile Include="clsChiTietHDBan_DTO.cs" />
     <Compile Include="clsChiTietHDNhap_DTO.cs" />
+    <Compile Include="clsChiTietHoaDonBan_DTO.cs" />
     <Compile Include="clsChiTietSanPham_DTO.cs" />
     <Compile Include="clsHoaDonBan_DTO.cs" />
     <Compile Include="clsHoaDonNhap_DTO.cs" />

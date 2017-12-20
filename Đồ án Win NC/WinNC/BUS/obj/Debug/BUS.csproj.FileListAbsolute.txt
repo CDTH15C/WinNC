@@ -16,3 +16,12 @@ D:\GitHub\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.pdb
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.dll
 D:\GitHub\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\BUS.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\DAO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\bin\Debug\DTO.pdb
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.dll
+D:\HOC LAP TRINH\WinNC\Đồ án Win NC\WinNC\BUS\obj\Debug\BUS.pdb
